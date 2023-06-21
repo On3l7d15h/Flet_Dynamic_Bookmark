@@ -17,14 +17,15 @@ class Settings:
         page.title = "App"
         page.window_width = 400;
         page.window_height = 600;
+        page.theme_mode = "dark"
         page.spacing = 0;
         page.window_title_bar_buttons_hidden = True;
         page.window_title_bar_hidden = True;
         page.window_top = 150;
         page.window_left = 580;
-        page.window_resizable = False;
+        page.window_resizable = True;
         page.theme = Theme(
-            color_scheme_seed=colors.TEAL
+            color_scheme_seed=colors.TEAL,  
         )
 
         router(page, "/")

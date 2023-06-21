@@ -41,5 +41,6 @@ class LoginView(UserControl):
             ],
             appbar=self.bar,
             vertical_alignment=MainAxisAlignment.CENTER,
-            horizontal_alignment=CrossAxisAlignment.CENTER
+            horizontal_alignment=CrossAxisAlignment.CENTER,
+            
         )
